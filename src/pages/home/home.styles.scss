@@ -1,0 +1,38 @@
+.home {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 0;
+        flex-wrap: nowrap;
+
+        img {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+        }
+        
+        .intro {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            // margin-left: auto;
+            .name {
+                font-size: 64px;
+            }
+        }
+
+        .category {
+            margin-left: auto;
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+
+}
